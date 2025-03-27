@@ -31,8 +31,11 @@ Help (/?)
 
 Notes:
     /F forces termination without waiting for the process to close gracefully.
+    
     /T ensures all child processes spawned by the target process are also terminated.
+    
     /F and /T flags can only be used with /PID or /IM as appropriate.
+    
     /U by itself terminates all processes associated with the specified user context, and does not require additional flags like /F or /T.
 
 Error Handling:
